@@ -3,4 +3,4 @@ psycopg2-binary
 six
 python-dotenv
 django-environ
-validateemail
+validate_email
