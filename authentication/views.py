@@ -6,7 +6,7 @@ from validate_email import validate_email
 from django.contrib import messages
 from django.core.mail import EmailMessage
 from django.contrib.sites.shortcuts import get_current_site
-from django.utils.encoding import force_bytes, force_str, DjangoUnicodeDecodeError
+from django.utils.encoding import force_bytes, force_text, DjangoUnicodeDecodeError
 from django.core.mail import send_mail
 from django.contrib.sites.shortcuts import get_current_site
 from django.utils.http import urlsafe_base64_decode, urlsafe_base64_encode
